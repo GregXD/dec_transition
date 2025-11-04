@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Transition - Development Experience Clearinghouse Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .status {
+            display: inline-block;
+            background: #fef3cd;
+            color: #856404;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .cta-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .secondary-text {
+            margin-top: 25px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        .secondary-text a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .secondary-text a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="status">Service Transition</div>
+        
+        <h1>We've Stopped Supporting This Site</h1>
+        
+        <p>Thank you for using our Development Experience Clearinghouse search tool. We've decided to focus our efforts elsewhere and are no longer maintaining this service.</p>
+        
+        <p>The good news? We've found a <span class="highlight">better alternative</span> for you.</p>
+
+        <div class="cta-section">
+            <p style="margin-bottom: 30px;"><strong>Introducing DECfinder</strong> — a purpose-built platform with access to over 111,000+ curated documents from USAID's Development Experience Clearinghouse.</p>
+            
+            <a href="https://decfinder.devme.ai/" class="cta-button">Visit DECfinder →</a>
+            
+            <p class="secondary-text">DECfinder is designed specifically for development professionals and makes it easier to locate credible evidence, trace project histories, and build on decades of implementation and learning.</p>
+        </div>
+    </div>
+</body>
+</html>
